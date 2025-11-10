@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Validate Form Pass</title>
+  
+</head>
+<body>
+    
+  
+  <form name="form1" action="taotaikhoan.php" onsubmit="return test()">
+    <table border="1">
+    <tr>
+      <td> Password: </td>
+      <td> <input type="password" name="password" /></td>
+    </tr>
+    <tr>
+      <td>Re-enter Password: </td> 
+      <td><input type="password" name="password2" /></td>
+    <tr>
+    <tr>
+      <td> <input type="submit" value="Submit"> </td>
+      <td></td>
+  </form>
+    <script type="text/javascript">
+      function test() {
+          var firstpassword = document.form1.password.value;
+          var secondpassword = document.form1.password2.value;
+      
+
+          if (firstpassword != "" && secondpassword != "") {
+
+            if (firstpassword == secondpassword) {
+               window.location.href = 'index.php';
+                return true;
+            }
+           
+             else {
+                alert("password must be same!");
+                return false;
+            }
+        }
+      else{
+        alert("Data is not null");
+        return false;
+      }
+
+          }
+  </script>
+</body>
+</html>

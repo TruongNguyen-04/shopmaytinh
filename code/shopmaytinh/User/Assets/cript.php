@@ -1,0 +1,63 @@
+   <script>
+		$(document).ready(function(){
+			$("#hide1").hide();
+		    $("#hide1").click(function(){
+		        $("#hs1").hide(500);
+		        $("#hide1").hide(500);
+		        $("#show1").show(500);
+		    });
+		    $("#show1").click(function(){
+		        $("#hs1").show(500);
+		        $("#show1").hide(500);
+		        $("#hide1").show(500);
+		    });
+		    $("#hide2").hide();
+		    $("#hide2").click(function(){
+		        $("#hs2").hide(500);
+		        $("#hide2").hide(500);
+		        $("#show2").show(500);
+		    });
+		    $("#show2").click(function(){
+		        $("#hs2").show(500);
+		        $("#show2").hide(500);
+		        $("#hide2").show(500);
+		    });
+		    $("#hide3").hide();
+		    $("#hide3").click(function(){
+		        $("#hs3").hide(500);
+		        $("#hide3").hide(500);
+		        $("#show3").show(500);
+		    });
+		    $("#show3").click(function(){
+		        $("#hs3").show(500);
+		        $("#show3").hide(500);
+		        $("#hide3").show(500);
+		    });
+
+		    $("#hide4").hide();
+		    $("#hide4").click(function(){
+		        $("#hs4").hide(500);
+		        $("#hide4").hide(500);
+		        $("#show4").show(500);
+		    });
+		    $("#show4").click(function(){
+		        $("#hs4").show(500);
+		        $("#show4").hide(500);
+		        $("#hide4").show(500);
+		    });
+
+		    $("#hidedh").hide();
+		    $("#hidedh").click(function(){
+		        $("#hsdh").hide(500);
+		        $("#hidedh").hide(500);
+		        $("#showdh").show(500);
+		    });
+		    $("#showdh").click(function(){
+		        $("#hsdh").show(500);
+		        $("#showdh").hide(500);
+		        $("#hidedh").show(500);
+		    });
+
+		});
+		
+</script>

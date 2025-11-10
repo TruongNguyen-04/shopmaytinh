@@ -1,0 +1,95 @@
+.box-search-t24{
+  
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.box-search-t24 select{
+    border: 1px solid #ccc;
+    padding: 5px 20px;
+}
+
+.box-search-t24 .btn-search-t24{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+form#form{
+    margin-top: 2px;
+}
+
+div.sanpham{
+    border: 1px solid #e0e0e0;
+    margin: 2px;
+    height: 300px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+div.sanpham:hover{
+    border: 2px solid skyblue;
+}
+
+.product-name-t24{
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    margin-top: 5px;
+}
+
+.product-price-t24{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+      transform: translateX(-50%);
+}
+
+.product-selling-t24{
+    overflow: hidden;
+}
+
+.container .pagination-index-t24{
+    padding: 20px;
+    text-align: center;
+}
+
+.container .pagination-index-t24 .btn-index-page#page{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin: 0 2px;
+    background-color: white;
+    color: black;
+}
+
+.container .pagination-index-t24 .btn-index-page#page.crpage{
+    background-color: skyblue;
+    color: white;
+    border: 0;
+    padding: 6px 12px;
+}
+
+h1.h2h{
+    font-size: 50px!important;
+}
+
+#submit_timkiem{
+    padding: 4px 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: fit-content;
+    height: fit-content;
+}
+
+form#form input{
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+form#form input:focus{
+border: 1px solid skyblue;
+}

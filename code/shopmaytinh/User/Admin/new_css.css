@@ -1,0 +1,14 @@
+*{
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#stl{
+    padding: 0;
+}
+
+.list-menu-parent ul.menu{
+    margin: 0;
+}

@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+.col-md-10{
+    padding-left: 0px;
+
+} .container{ 
+    background-color: rgba(255,255,255,0.8);
+
+}
+div.list-menu{
+    width: 100%;
+    /* margin-top: 5px; */
+    border-top: 1px solid #ccc;
+}
+
+div.list-menu-parent{
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+.list-menu-parent ul{
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+.list-menu-parent ul li{
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    border-bottom:1px solid rgba(225,225,225,0.8);      
+    box-sizing: border-box;
+}
+.list-menu-parent ul li:last-child{
+    border: none;
+}
+
+.list-menu-parent ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    color: #da7911;
+    padding:30px 10px;
+    display: block;
+    background-color: skyblue;
+    color: black;
+}
+
+.list-menu-parent ul li ul{
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.list-menu-parent ul li ul li{
+    width: 100%;
+    opacity: 0.8px;
+    border-bottom:1px solid rgba(225,225,225,0.2);
+}
+.list-menu-parent ul li ul li a{
+    width: 100%;
+    padding:10px 0px;
+    display: block;
+
+}
+
+.list-menu-parent ul li{
+    cursor: pointer;
+
+}
+.list-menu-parent ul li ul li:last-child{
+    border: none;
+}
+
+
+
+
+/*
+.footer {
+    width: 100%;
+    position: sticky;
+    top: 100%;
+    background: #2c3e50;
+    text-align: center;
+    color: black;
+    padding: 1rem;
+    background-color: rgba(255,255,255,0.3);
+  
+	
+}*/
+.footer {
+
+  position: sticky;
+   float: left;
+   width: 100%;
+   top: 100%;
+  text-align: center; 
+  color: #fff; 
+  padding: 1rem;
+  background-color:skyblue
+  
+}
+
+
+.row{
+    background-color: white;
+}
+
+#stl{
+    background-color: skyblue
+}
